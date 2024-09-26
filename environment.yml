@@ -1,0 +1,22 @@
+name: InSAR
+channels:
+  - defaults
+dependencies:
+- python
+- pip
+- numpy
+- scipy
+- joblib  
+- pandas
+- matplotlib
+- plotly
+- seaborn
+- tqdm
+- ipython
+- jupyter
+- pip:
+  - scikit-learn
+  - geoopt
+  - pyyaml
+  - pymanopt
+  - "jax[cpu]"
